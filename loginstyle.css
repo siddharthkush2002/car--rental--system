@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-style:sans-serif;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    background-image: url(/loginpic/background.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.form-area {
+    
+    width: 500px;
+    height: 550px;
+    position: relative;
+    background: rgb(255, 255, 255);
+    margin: 3% auto;
+    padding: 5px;
+    border-radius: 9px;
+    overflow: hidden;
+}
+
+.button-area {
+    width: 238px;
+    margin: 35px auto;
+    position: relative;
+    background: rgb(211, 197, 197);
+    border-radius: 17px;
+
+}
+
+.shift-button {
+    padding: 10px 35px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+
+}
+
+#button-box {
+    top: 0%;
+    left: 0%;
+    position: absolute;
+    width: 127.64px;
+    height: 36px;
+    background: linear-gradient(to right, rgb(82, 245, 245), rgb(14, 93, 251));
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.icons {
+    margin: 30px auto;
+
+    text-align: center;
+}
+
+.icons img {
+    width: 30px;
+    margin:-8px 9px;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.user-input{
+    top: 54px;
+    left: 110px;
+    position:relative;
+    width: 280px;
+    transition: .5s;
+}
+
+.input{
+    width:100%;
+    padding: 10px;
+    margin: 1px 0;
+    border-top: 0;
+    border-right: 0;
+    border-left:0 ;
+    border-bottom: -1px black;
+    outline: none;
+    background:transparent;
+}
+.submit-btn{
+    width:80%;
+    padding:10px 30px;
+    cursor:pointer;
+    display: block;
+    margin:auto;
+    background: linear-gradient(to right, rgb(82, 245, 245), rgb(14, 93, 251));
+    border-radius: 17px;
+    border: none;
+}
+.check-box{
+    margin: 6px 5px 86px 1px;
+}
+
+#login{
+    left: 110px;
+
+}
+#register{
+    top: -168px;
+    left: 570px;
+    width: 280px;
+    
+}
+.home-btn {
+    margin: 30px auto;
+    text-align: left;
+}
+
+.home-btn img {
+    width: 88px;
+    margin: -29px 2px;
+    cursor: pointer;
+    border-radius: 8%;
+}
